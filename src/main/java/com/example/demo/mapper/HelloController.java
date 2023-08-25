@@ -11,7 +11,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String aaa(@RequestParam("name")String name){
-        log.info("请求锦鲤啊aaaaa"+name);
+        log.info("请求锦鲤啊aaaaaxxxxxx"+name);
         return "Hello ,Spring"+name;
     }
 }
